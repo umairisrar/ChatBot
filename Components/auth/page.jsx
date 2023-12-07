@@ -13,7 +13,7 @@ const Auth = () => {
         </Link>
         <UserButton afterSignOutUrl="/" />
 
-        <Link href="/auth/signup">
+        <Link href="/sign-up">
           <button className="text-[white] text-[21px] border-[1px] border-[white] rounded-[5px] p-[6px] bg-[#1d4ed8] hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300">
             Sign Up
           </button>
