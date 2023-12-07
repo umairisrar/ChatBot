@@ -23,8 +23,6 @@ export default function RootLayout({ children }) {
         <body className={inter.className}>
           {/* <main className="container mx-auto"> */}
           <div className="flex items-center justify-center min-h-screen w-[100%] flex-col">
-            <Topnav />
-
             <div className="w-[100%]">{children}</div>
           </div>
           {/* </main> */}
